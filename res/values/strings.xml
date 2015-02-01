@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Family__Detective</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_inscription">Inscription</string>
+    <string name="bannerr">bannerr</string>
+    <string name="suivanttt">suivanttt</string>
+    <string name="detective">detective</string>
+    <string name="authentencation">authentencation</string>
+    <string name="login">login</string>
+    <string name="motdepasse">password</string>
+    <string name="nom">nom</string>
+    <string name="connexion">connexion</string>
+    <string name="inscription">inscription</string>
+    <string name="prenom">prenom</string>
+    <string name="adresse">adresse</string>
+    <string name="telephone">telephone</string>
+    <string name="email">email</string>
+    <string name="pays">pays</string>
+    <string name="title_activity_membre">Membre</string>
+    <string name="suivant">suivant</string>
+    <string name="sos">sos</string>
+    <string name="help">help</string>
+    <string name="soos">soos</string>
+    <string name="sesignaler">sesignaaler</string>
+    <string name="msg">msg</string>
+    <string name="title_activity_utilisateur">Utilisateur</string>
+    <string name="title_activity_utiisateur">Utiisateur</string>
+    <string name="parametre">parametre</string>
+    <string name="securite">securite</string>
+    <string name="famille">famille</string>
+    <string name="plus">plus</string>
+    <string name="tracage">tracage</string>
+    <string name="str_hnt_to">Enter Telephone Number</string>
+    <string name="str_hnt_message">Enter Message</string>
+    <string name="str_btn_send">Send Message</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">SmsSendNotification</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_inscrip_membre">InscripMembre</string>
+
+</resources>

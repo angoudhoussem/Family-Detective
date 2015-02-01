@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/detective"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="238dp" >
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/theme"
+            android:ems="10"
+            android:hint="mot de passe"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/connexion"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_above="@+id/inscription"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/connexion" />
+
+        <Button
+            android:id="@+id/inscription"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/connexion"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/inscription" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="128dp"
+            android:background="@drawable/theme"
+            android:ems="10"
+            android:hint="email" />
+
+    </RelativeLayout>
+
+</ScrollView>

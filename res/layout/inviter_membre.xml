@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+       android:background="@drawable/detective"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/id_imageView1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_launcher" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/id_nomm"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="108dp"
+            android:background="@drawable/theme"
+            android:ems="10"
+            android:hint="nom" />
+
+        <EditText
+            android:id="@+id/id_prenomm"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/id_nomm"
+            android:layout_below="@+id/id_nomm"
+            android:layout_marginTop="54dp"
+            android:background="@drawable/theme"
+            android:ems="10"
+            android:hint="prenom" />
+
+        <Button
+            android:id="@+id/id_invitation"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/id_prenomm"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="34dp"
+            android:background="@drawable/invitation" />
+
+    </RelativeLayout>
+
+</ScrollView>

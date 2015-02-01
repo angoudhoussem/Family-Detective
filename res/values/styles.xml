@@ -1,0 +1,52 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+       
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme"> 
+    </style>
+    <style name="wrap_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+ <style name="match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+     <style name="login_wrapper" parent="@style/wrap_layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:focusable">false</item>
+    </style>
+    <style name="wide_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+     <style name="authentification_background" parent="@style/wide_layout">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/dialog_background_bottom</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:minWidth">275.0dip</item>
+    </style>
+    <style name="authentification_title_icon">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">50dip</item>
+        <item name="android:layout_height">50dip</item>
+    </style>
+     <style name="authentification_title" parent="@style/wide_layout">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+ 
+    <style name="fill_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+</resources>

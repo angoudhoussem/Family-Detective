@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.family__detective"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="10" />
+
+    <permission
+        android:name="com.example.family__detective.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.family__detective.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.family.detective.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.family.detective.Acceuil"
+            android:label="@string/title_activity_inscription" >
+        </activity>
+        <activity
+            android:name="com.family.detective.Inscription"
+            android:label="@string/title_activity_inscription" >
+        </activity>
+        <activity
+            android:name="com.family.detective.Authentification"
+            android:label="@string/authentencation" >
+        </activity>
+        <activity
+            android:name="com.family.detective.Membre"
+            android:label="@string/title_activity_membre" >
+        </activity>
+        <activity
+            android:name="com.family.detective.Utilisateur"
+            android:label="@string/title_activity_utilisateur" >
+        </activity>
+        <activity
+            android:name="com.family.detective.maps.MainActivity"
+            android:label="@string/title_activity_utilisateur" >
+        </activity>
+        <activity android:name="com.family.detective.message.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.family.detective.message.SmsStatus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.family.detective.message.status.sent" />
+                <action android:name="com.family.detective.message.status.delivered" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.family.detective.message.NotificationView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.family__detective.CurlActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.family.detective.InscripMembre"
+            android:label="@string/title_activity_inscrip_membre" >
+        </activity>
+        <activity android:name="com.example.family__detective.ListMembre" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyArRxrTjFOwYjlONnTE1601301ZAYiVtvU" />
+    </application>
+
+</manifest>
